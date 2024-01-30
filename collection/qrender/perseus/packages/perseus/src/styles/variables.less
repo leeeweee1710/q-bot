@@ -1,0 +1,56 @@
+// Steal from webapp/stylesheets/shared-package/variables.less
+@baseFontFamily: "Lato", sans-serif;
+@boldFontFamily: "Lato-Bold", "Lato", sans-serif;
+@green: #76a005;
+@kaGreen: #71b307;
+@blue: #1c758a;
+@gray: #aaa;
+@red: #ffbaba;
+@grayLight: #aaa;
+@grayLighter: #ddd;
+@learnstormBlue: #4898fc;
+@gray76: #babec2;
+
+// Steal from webapp/javascript/shared-styles-package/global-styles.js
+// TODO(charlie): DRY this up. How can we keep our global palette in sync across
+// repos?
+@white: #ffffff;
+@offWhite: #f7f8fa;
+@gray98: #fafafa;
+@gray97: #f6f7f7;
+@gray95: #f0f1f2;
+@gray90: #e3e5e6;
+@gray85: #d6d8da;
+@gray76: #babec2;
+@gray68: #888d93;
+@gray41: #626569;
+@gray25: #3b3e40;
+@gray17: #21242c;
+
+// Media query breakpoints
+// --------------------------------------------------
+
+// Kept in sync from Pure's default breakpoints: http://purecss.io/grids/
+
+@pure-sm-min: 568px;
+@pure-md-min: 768px;
+@pure-lg-min: 1024px;
+@pure-xl-min: 1280px;
+
+@pure-xs-max: (@pure-sm-min - 1);
+@pure-sm-max: (@pure-md-min - 1);
+@pure-md-max: (@pure-lg-min - 1);
+@pure-lg-max: (@pure-xl-min - 1);
+
+// Layer variables
+@zIndexScratchPad: 1;
+@zIndexAboveScratchpad: @zIndexScratchPad + 1;
+@zIndexInteractiveComponent: @zIndexAboveScratchpad + 1;
+@zIndexCurrentlyDragging: @zIndexInteractiveComponent + 1;
+@zIndexCalculator: @zIndexCurrentlyDragging + 1;
+
+// Responsive variables
+@phoneMargin: 16px;
+
+@articleMaxWidth: 688px;
+@articleMaxWidthTablet: 512px;

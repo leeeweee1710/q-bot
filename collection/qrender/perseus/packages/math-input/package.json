@@ -1,0 +1,67 @@
+{
+    "name": "@khanacademy/math-input",
+    "description": "Khan Academy's new expression editor for the mobile web.",
+    "author": "Khan Academy",
+    "license": "MIT",
+    "version": "16.5.1",
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Khan/perseus.git",
+        "directory": "packages/math-input"
+    },
+    "bugs": {
+        "url": "https://github.com/Khan/perseus/issues"
+    },
+    "module": "dist/es/index.js",
+    "main": "dist/index.js",
+    "source": "src/index.ts",
+    "scripts": {},
+    "dependencies": {
+        "@khanacademy/perseus-core": "1.4.1",
+        "mathquill": "git+https://git@github.com/Khan/mathquill.git#48410e80d760bbd5105544d4a4ab459a28dc2cbc",
+        "performance-now": "^0.2.0"
+    },
+    "devDependencies": {
+        "@khanacademy/wonder-blocks-clickable": "^4.0.12",
+        "@khanacademy/wonder-blocks-color": "^3.0.0",
+        "@khanacademy/wonder-blocks-core": "^6.3.1",
+        "@khanacademy/wonder-blocks-i18n": "^2.0.2",
+        "@khanacademy/wonder-blocks-popover": "^3.1.0",
+        "@khanacademy/wonder-blocks-timing": "^4.0.2",
+        "@khanacademy/wonder-stuff-core": "^1.5.1",
+        "@phosphor-icons/core": "^2.0.2",
+        "aphrodite": "^1.1.0",
+        "jquery": "^2.1.1",
+        "katex": "^0.11.1",
+        "perseus-build-settings": "^0.3.0",
+        "prop-types": "15.6.1",
+        "react": "^16.8.0",
+        "react-dom": "^16.8.0",
+        "react-router": "^5.2.1",
+        "react-router-dom": "^5.3.0",
+        "react-transition-group": "^4.4.1"
+    },
+    "peerDependencies": {
+        "@khanacademy/wonder-blocks-clickable": "^4.0.12",
+        "@khanacademy/wonder-blocks-color": "^3.0.0",
+        "@khanacademy/wonder-blocks-core": "^6.3.1",
+        "@khanacademy/wonder-blocks-i18n": "^2.0.2",
+        "@khanacademy/wonder-blocks-popover": "^3.0.22",
+        "@khanacademy/wonder-blocks-timing": "^4.0.2",
+        "@khanacademy/wonder-stuff-core": "^1.5.1",
+        "@phosphor-icons/core": "^2.0.2",
+        "aphrodite": "^1.1.0",
+        "jquery": "^2.1.1",
+        "katex": "^0.11.1",
+        "prop-types": "15.6.1",
+        "react": "^16.8.0",
+        "react-dom": "^16.8.0",
+        "react-router": "^5.2.1",
+        "react-router-dom": "^5.3.0",
+        "react-transition-group": "^4.4.1"
+    },
+    "keywords": []
+}
