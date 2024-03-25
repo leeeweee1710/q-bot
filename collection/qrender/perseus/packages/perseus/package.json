@@ -61,7 +61,7 @@
         "eslint-plugin-import": "^2.26.0",
         "intersection-observer": "^0.12.0",
         "jquery": "^2.1.1",
-        "katex": "^0.11.1",
+        "katex": "^0.16.10",
         "lodash.debounce": "^4.0.8",
         "mathquill": "git+https://git@github.com/Khan/mathquill.git#48410e80d760bbd5105544d4a4ab459a28dc2cbc",
         "perseus-build-settings": "^0.3.0",
